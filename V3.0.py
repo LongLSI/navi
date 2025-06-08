@@ -21,6 +21,7 @@ def collect_files(folder, temp_dirs=None):
     if temp_dirs is None:
         temp_dirs = []
 
+
     docs, images, xy_files = [], [], []
 
     for root, _, files in os.walk(folder):
